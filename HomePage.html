@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="HomePage.html">Home</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Page1.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Page2.html">Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="Page3.html">Action</a></li>
+                          <li><a class="dropdown-item" href="Page4.html">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="Page5.html">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              <h1>Home Page</h1>
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStSN9d_j6woFQYTGtS45LPYXOlCSEOdc-cwXAlWJabxQ&s"  class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="data:image/png;base64,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" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src=""  class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+          
+               
+</body>
+</html>
